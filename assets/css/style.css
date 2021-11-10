@@ -38,6 +38,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     box-sizing: border-box;
     font-family: sans-serif;
     list-style: none;
+    font-style: Lato;
 }
 img{
     max-width: 800px;
@@ -61,7 +62,40 @@ div.container{
     margin:0 auto;
 }
 /* GERAL */
-  
+
+.secaoCursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secaoCursos article{
+    text-align: center;
+}
+
+.secaoCursos img{
+    width: 100px;
+    height: 90px;
+}
+
+.secaoCursos h2 {
+    Font-style: Montserrat;  
+    font-size: 19px;
+    align-items: center;
+    padding: 20px;
+}
+
+.secaoCursos h3{
+    padding: 20px;
+}
+
+.secaoCursos p{
+    font-size: 15px;
+    padding:10px 20px 30px 20px;
+}
+
+
 /* HTML */
 html{}
 /* HTML */
@@ -75,7 +109,22 @@ header{}
 /* HEADER */
   
 /* FOOTER */
-footer{}
+footer{
+    display:none;
+    align-items: ;
+    text-align:  center;
+    }
+
+.seta {
+    text-align: center;
+    align-items: center;
+}    
+
+.seta img{
+    width: 20px;
+    height: 20px;
+}
+
 /* FOOTER */
 
 /* INICIAL */
@@ -97,7 +146,42 @@ main{}
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
+ 
+    @media screen and (min-width: 800px) {
+            
+
+        
+        /* courses pra baixo */
+        .secaoCursos{
+            background-color:#FFFFFF;
+        }
+
+        .secaoCursos ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;            
+        }    
+
+        .secaoCursos li{
+            width: 33%;
+        }
+            
+        footer{
+            display: block;
+            align-items: center;
+            text-align:  center;
+            padding-top: 10px;
+            margin-bottom: 30px;
+            }
+        
+            .seta img{
+                padding-top: 60px;
+                width: 20px;
+                height: 20px;
+            }
+
+
+
+    }
 /* MEDIA QUERIES */
