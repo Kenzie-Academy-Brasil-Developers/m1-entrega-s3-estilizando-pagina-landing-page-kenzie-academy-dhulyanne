@@ -32,16 +32,38 @@ family=Lato -> Títulos, textos
 :root{}
   
 /* GERAL */
-html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
+html, body, input, figure, textarea, h1, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     list-style: none;
 }
-img{
-    max-width: 800px;
+
+p {
+    font-family: 'Lato';
+    font-size: 18px;
+    margin: 50px 20px 50px 20px;
 }
+
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul {
+    display: none;
+}
+
 div.flex{
     display: flex;
 }
@@ -60,6 +82,103 @@ div.container{
     max-width: 1140px;
     margin:0 auto;
 }
+/* mudei no html*/
+div.flex-col1{
+    margin: 60px;
+    font-family: 'Montserrat';
+
+}
+div.flex-col2{
+    display: flex;
+    align-items: center;
+    margin: 50px 120px 50px 120px;
+    width: 120px;
+    height:120px;
+    justify-content: center;
+}
+
+div.flex-col3 {
+    background-color: #818181;
+    margin-top: 50px;
+    border-top: 40px solid #818181;
+    border-left: 0px solid #818181;
+    border-bottom: 0px solid #818181;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 360px;
+}
+
+div.flex-col4 {
+    background-color: #818181;
+    border-top: 1px solid #818181;
+}
+
+span{
+    color: #303030;
+    font-size: 14px;
+    margin: 50px 20px 50px 20px;
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    word-spacing: 3px;
+}
+h2{
+    padding: 0px 90px 0px 95px;
+    margin: none;
+    width: 170px;
+    text-align: center;
+}
+
+ul {
+    padding: 20px 80px 20px 80px;
+    color: #303030;
+    
+}
+
+h3{
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-size: 30px;
+    margin: 10px 55px 10px 55px;
+    font-weight:initial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-weight: initial;
+    font-size: 20px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+
+}
+
+.menu{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 /* GERAL */
   
 /* HTML */
@@ -71,7 +190,12 @@ body{}
 /* BODY */
   
 /* HEADER */
-header{}
+header{
+    background-color: #00043e;
+    height: 100px;
+    
+    
+}
 /* HEADER */
   
 /* FOOTER */
@@ -94,7 +218,54 @@ main{}
 ::-webkit-resizer{}
 
 /* EXTRAS */
-  
+  figcaption{
+      display: none;
+  }
+  section.secaoDestaque {
+      background-color: #00043e;
+      padding: 10px;
+      font-family: 'Lato';
+      color: white;
+      font-size: 15px;
+      justify-content: center;
+  }
+  button {
+      background-color: #007aff;
+      color:white;
+      align-items: center;
+      padding: 1px 20px;
+      border: 1px solid #007aff;
+      height: 35px;
+      border-radius: 5px;
+      margin: 0px;
+  }
+  div.secaoDestaqueFormulario{
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px 80px 25px;
+
+  }
+
+
+  button2 {
+      background-color: white;
+      font-size: 18px;
+      align-items: center;
+      padding: 15px 60px 15px 60px;
+      margin: 20px;
+      border: 1px solid #303030;
+      border-radius: 5%;
+
+  }
+  input {
+      height: 35px;
+      margin: 0px;
+  }
+
+
+
+ 
 
 /* MEDIA QUERIES */
     @media screen and (min-width: 400px) {}
