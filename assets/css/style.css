@@ -55,12 +55,21 @@ nav{
     display: flex;
     justify-content: flex-end;
     
+<<<<<<< HEAD
 }
 
 nav ul {
     display: none;
 }
 
+=======
+}
+
+nav ul {
+    display: none;
+}
+
+>>>>>>> dhulyanne
 div.flex{
     display: flex;
 }
