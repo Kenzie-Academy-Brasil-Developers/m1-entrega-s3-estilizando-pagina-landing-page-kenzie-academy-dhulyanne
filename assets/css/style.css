@@ -185,6 +185,10 @@ figure {
 
 /* GERAL */
 
+.article h2 {
+  text-align: center;
+}
+
 .secaoCursos{
     display: flex;
     flex-direction: column;
@@ -206,7 +210,7 @@ figure {
     font-size: 19px;
     align-items: center;
     padding: 20px;
-    text-align: center;
+    
 }
 
 .secaoCursos h3{
