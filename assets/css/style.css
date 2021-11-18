@@ -29,6 +29,17 @@ family=Lato -> Títulos, textos
 :root{}
   
 /* GERAL */
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;  
+    color:red; 
+    font-size:150%; 
+}
+
 html, body, input, figure, textarea, h1, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
