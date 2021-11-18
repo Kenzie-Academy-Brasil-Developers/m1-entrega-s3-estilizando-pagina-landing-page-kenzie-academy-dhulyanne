@@ -238,7 +238,6 @@ header{
 /* FOOTER */
 footer{
     display:none;
-    align-items: ;
     text-align:  center;
     }
 
@@ -369,9 +368,7 @@ main{}
         padding: 0px 50px 0px 50px;
         list-style-type: none;
         text-decoration-color: white;
-
-    
-    }
+      }
 
     nav li {
         padding: 20px 20px 0px 20px;
