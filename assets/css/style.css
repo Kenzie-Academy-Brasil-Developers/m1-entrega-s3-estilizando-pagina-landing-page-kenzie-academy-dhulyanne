@@ -186,7 +186,7 @@ figure {
 /* GERAL */
 
 .article h2 {
-  text-align: center;
+  width: 100%;
 }
 
 .secaoCursos{
