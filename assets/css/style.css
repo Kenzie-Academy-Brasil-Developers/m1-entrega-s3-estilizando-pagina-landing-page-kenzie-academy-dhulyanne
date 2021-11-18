@@ -357,16 +357,6 @@ main{}
             }
 
 
-
-    }
-/* MEDIA QUERIES */
-
-    @media screen and (min-width: 800px) {
-        /* courses pra baixo */
-       header {
-
-       }
-
        section.secaoDestaque{
            background-image: url("/assets/img/fundo.webp");
        }
