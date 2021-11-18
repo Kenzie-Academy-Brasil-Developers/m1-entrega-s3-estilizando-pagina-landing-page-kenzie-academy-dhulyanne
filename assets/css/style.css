@@ -185,7 +185,7 @@ figure {
 
 /* GERAL */
 
-.article h2 {
+article h2 {
   width: 100%;
 }
 
@@ -220,6 +220,10 @@ figure {
 .secaoCursos p{
     font-size: 15px;
     padding:10px 20px 30px 20px;
+}
+
+.secaoCursos ul {
+    list-style: none;
 }
 
 
