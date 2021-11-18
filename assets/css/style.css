@@ -56,21 +56,18 @@ nav{
     display: flex;
     justify-content: flex-end;
     
-<<<<<<< HEAD
 }
 
 nav ul {
     display: none;
 }
 
-=======
 }
 
 nav ul {
     display: none;
 }
 
->>>>>>> dhulyanne
 div.flex{
     display: flex;
 }
@@ -324,7 +321,6 @@ main{}
  
 
 /* MEDIA QUERIES */
-<<<<<<< HEAD
  
     @media screen and (min-width: 800px) {
             
@@ -364,7 +360,7 @@ main{}
 
     }
 /* MEDIA QUERIES */
-=======
+
     @media screen and (min-width: 800px) {
         /* courses pra baixo */
        header {
@@ -478,10 +474,7 @@ main{}
 
     }
 /* MEDIA QUERIES */
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 74fc67c180f248017d6956efcbd35f6ccd44002c
->>>>>>> d792964d22b8e0099a10cae87b50e72d45e96e57
+
